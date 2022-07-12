@@ -1,0 +1,84 @@
+* {
+    margin : 0;
+}
+
+body {
+    background-color: aqua;
+}
+
+.menu {
+    background-color: #222221;
+    display: block;
+    content:"";
+    width: 100%;
+    height: 55px;
+    position: fixed;
+    top: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bigtext {
+    text-align: center;
+}
+
+.noidung {
+    background-color: aqua;
+    height: 100vh;
+}
+
+.writezone {
+    background-color: rgba(240, 248, 255, 0.93);
+    background-position: center;
+    height: auto;
+    margin-left: 5%; 
+    margin-right: 5%; 
+    margin-top: 70px;
+}
+
+.writezone h1 {
+    font-family: monospace;
+    margin-left: 18px;
+    text-align: center;
+    font-size: xxx-large;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.image img {
+    border: 1px groove;
+}
+
+#text {
+    display: block;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+details {
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: .5em .5em 0;
+}
+
+summary {
+    font-weight: bold;
+    margin: -.5em -.5em 0;
+    padding: .5em;
+}
+
+details[open] {
+    padding: .5em;
+}
+
+details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: .5em;
+}
